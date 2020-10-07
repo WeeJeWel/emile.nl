@@ -53,6 +53,10 @@ Promise.resolve().then(async () => {
 
     await fse.ensureDir(path.join(DIR_BUILD, post.id));
     await fse.writeFile(path.join(DIR_BUILD, post.id, 'index.html'), postHtml);
+
+    if (await fse.pathExists(path.join(DIR_POSTS, post.id, 'img'))) {
+      await fse.copy(path.join(DIR_POSTS, post.id, 'img'), path.join(DIR_BUILD, post.id, 'img'));
+    }
   }
 
   // Write index

@@ -10,11 +10,11 @@ So from experience as a visual designer and obsessed observer of human behavior,
 
 Before my hypothesis makes sense, I need to tell you some basic things about colors. The visible color spectrum humans can observe has been researched, and can be summarized in the graphic below. Simply put, a certain wavelength of a light particle equals to a specific color.
 
-![vispect2-300x95.gif](blob:https://euangoddard.github.io/48c03561-2560-4871-8362-94f82cfe1886)
+![Color Spectrum](./img/vispect2.gif)
 
 Mostly used by artists and designers, colors can also be visualized in a circle, as shown below. A color's tint is indicated by it's *hue* value, varying from 0° (red), to 180° (cyan) to 360° (again, red).
 
-![vispect2-300x95.gif](blob:https://euangoddard.github.io/48c03561-2560-4871-8362-94f82cfe1886)
+![Hue Circle](./img/hslhuecircle.jpg)
 
 Note that a wavelength doesn't have a color, it's just a particle vibrating at a specific frequency. Our minds give this specific particle meaning because our eye (a light sensor) sends a signal to our brain that a specific frequency has been detected. Our brain, in turn, make it part of our consciousness and create an image of the world we *see*.
 
@@ -23,6 +23,8 @@ Note that a wavelength doesn't have a color, it's just a particle vibrating at a
 So if the brain assigns a color to a specific wavelength, then why should this be the same for every person? Would this 'frequency-color-legend' be hardwired in our brains, or will chance play a role?
 
 My hypothesis is that every human has a different 'hue-offset'. What does that mean? Look at the wheel above, and imagine playing a game called the 'birth-lottery'. You get born, and can spin the wheel like a Wheel of Furtune. Whichever position it ends up with will determine the colors you see for the rest of your life.
+
+![Hue Shift](./img/Hue-shift.jpg)
 
 With other words, my 'hue-offset' might be an arbitrary number between 0° and 360° compared to yours. Image my 'hue-offset' is 120°. What you see as red, such as a rose or strawberries, is shifted a half circle, so blue for me. And what is blue for you, such as the sky, looks as red to me. See the image below.
 

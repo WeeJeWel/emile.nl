@@ -57,7 +57,14 @@ blockquote {
 }
   blockquote p:last-child {
     margin-bottom: 0;
-  } 
+  }
+
+p img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 3px;
+}
 
 .me {
   display: block;
