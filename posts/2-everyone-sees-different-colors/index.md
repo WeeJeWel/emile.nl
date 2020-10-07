@@ -4,7 +4,7 @@ I came to believe that you may see colors different than I do. And your best fri
 
 Have you ever noticed that the way people like certain color combinations seem pretty random? For the same sort of image, you might like red and cyan together, whereas I might prefer the combination yellow and blue.
 
-So from experience as a visual designer and obsessed observer of human behavior, I haven't found any color combination that everyone, or at least most people, seems to like. Except for one: rainbows. Everyone loves rainbows!
+So from experience as a visual designer and obsessed observer of human behavior, I haven't found any color combination that everyone, or at least most people, seem to like. Except for one: rainbows. Everyone loves rainbows!
 
 ## The science behind colors
 
@@ -16,7 +16,7 @@ Mostly used by artists and designers, colors can also be visualized in a circle,
 
 ![Hue Circle](./img/hslhuecircle.jpg)
 
-Note that a wavelength doesn't have a color, it's just a particle vibrating at a specific frequency. Our minds give this specific particle meaning because our eye (a light sensor) sends a signal to our brain that a specific frequency has been detected. Our brain, in turn, make it part of our consciousness and create an image of the world we *see*.
+Note that a wavelength doesn't have a color, it's just a particle vibrating at a specific frequency. Our minds give this specific particle meaning because our eye (a light sensor) sends a signal to our brain that a specific frequency has been detected. Our brain, in turn, makes it part of our consciousness and creates an image of the world we *see*.
 
 ## Your red is my blue
 
@@ -24,9 +24,9 @@ So if the brain assigns a color to a specific wavelength, then why should this b
 
 My hypothesis is that every human has a different 'hue-offset'. What does that mean? Look at the wheel above, and imagine playing a game called the 'birth-lottery'. You get born, and can spin the wheel like a Wheel of Furtune. Whichever position it ends up with will determine the colors you see for the rest of your life.
 
-![Hue Shift](./img/Hue-shift.jpg)
-
 With other words, my 'hue-offset' might be an arbitrary number between 0° and 360° compared to yours. Image my 'hue-offset' is 120°. What you see as red, such as a rose or strawberries, is shifted a half circle, so blue for me. And what is blue for you, such as the sky, looks as red to me. See the image below.
+
+![Hue Shift](./img/Hue-shift.jpg)
 
 We would both argue that the sky is blue and roses are red, because we wouldn't know better. But in our heads, what we *experience*, the colors may really differ.
 
@@ -48,7 +48,7 @@ The following arguments have led me to believe that this might be a plausible hy
 
   This might also explain why almost everyone likes rainbows. A rainbow contains all colors we can see and they are distributed evenly.
 
-Maybe the color spectrum isn't even the same across humans. It could very well be possible that some people only see a quarter, 0° to 90°, and so everything is red-yellow-green-ish. But for them that's the real world, so they wouldn't know better. Or maybe most of us are missing out of a lot of colors as well. Who knows!
+Maybe the color spectrum isn't even the same across humans. It could very well be possible that some people only see a quarter, 0° to 90°, and so everything is red-yellow-green-ish. But for them that's the real world, so they wouldn't know better. Or maybe most of us are missing out on a lot of colors as well. Who knows!
 
 I have thought long about a more scientific way of testing this hypothesis but I haven't come up with one. What people *experience *is still a fuzzy area to research.
 
