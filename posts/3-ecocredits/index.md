@@ -14,7 +14,7 @@ Companies are motivated to make cheaper, better products with less resources and
 
 ## Money Works
 
-We're currently using money as the common demoninator. Time equals money, and money equals resources. And to make stuff, we need both time and resources.
+We're currently using money as the common denominator. Time equals money, and money equals resources. And to make stuff, we need both time and resources.
 
 Money works because trading money for a bread is a much better idea than trading a chicken for a bread, because money is much more divisible than a chicken.
 
