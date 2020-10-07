@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "serve": "concurrently \"nodemon\" \"serve build\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "nodemon": "^2.0.4",
+    "serve": "^11.3.2",
+    "showdown": "^1.9.1"
+  },
+  "nodemonConfig": {
+    "ext": "js,ejs,md,css",
+    "watch": [
+      "build.js",
+      "theme",
+      "posts"
+    ]
+  },
+  "dependencies": {
+    "showdown-highlight": "^2.1.5"
+  }
+}

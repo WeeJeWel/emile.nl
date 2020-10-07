@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>
+    <% if(typeof post !== 'undefined') { %>
+    <%= post.title %> —
+    <% } %>
+    Emile Nijssen's Blog
+  </title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" type="image/png" href="/img/me.jpg">
+</head>
+
+<body>
+
+  <a href="/"><img class="me" src="/img/me.jpg" alt="My head" /></a>
+  <div class="sitetitle">Emile Nijssen's Blog</div>
+
+  <% if(typeof post !== 'undefined') { %>
+  <%- post.html; %>
+
+  <a class="back" href="/">← All Posts</a>
+
+  <% } else { %>
+  <ol class="posts" reversed>
+    <% posts.forEach(post => { %>
+    <li><a href="/<%= post.id %>"><%= post.title %></a></li>
+    <% }) %>
+  </ol>
+  <% } %>
+</body>
+
+</html>
