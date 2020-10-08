@@ -18,7 +18,7 @@ We're currently using money as the common denominator. Time equals money, and mo
 
 Money works because trading money for a bread is a much better idea than trading a chicken for a bread, because money is much more divisible than a chicken.
 
-The problem with money though, is that non-produtive members of society (I'm looking at you, Wall Street) who are unable to add value (e.g. bake a bread of build rockets), have designed games around money itself, to enrichen themselves. Money should be just a tool, but they made it a goal in itself. When that happened, that's where society ended and individualism began.
+The problem with money though, is that non-produtive members of society (I'm looking at you, Wall Street) who are unable to add value (e.g. bake a bread or build rockets), have designed games around money itself, to enrichen themselves. Money should be just a tool, but they made it a goal in itself. When that happened, that's where society ended and individualism began.
 
 The result is that people that add little to no value to society still can end up with a lot of money. And therein lies the problem; we value money as a measure of what a person has contributed. But it only says something about what that person can buy.
 
