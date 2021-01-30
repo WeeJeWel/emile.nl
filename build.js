@@ -29,8 +29,14 @@ Promise.resolve().then(async () => {
   // Get Index
   const indexEjs = await fse.readFile(path.join(DIR_THEME, 'index.ejs'), 'utf8');
 
-  // Get posts
-  const posts = await Promise.all((await fse.readdir(DIR_POSTS)).map(async id => {
+  // Get posts folders
+  const postsFolders = (await fse.readdir(DIR_POSTS)).filter(name => {
+    if( name.startsWith('.') ) return false;
+    return true;
+  })
+
+  // Get posts files
+  const posts = await Promise.all(postsFolders.map(async id => {
     const text = await fse.readFile(path.join(DIR_POSTS, id, 'index.md'), 'utf8');
     const html = converter.makeHtml(text);
     const index = parseInt(id.split('-')[0]);

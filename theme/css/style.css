@@ -25,18 +25,7 @@ ul {
   line-height: 2em;
   padding: 10px;
   transition: all 0.05s;
-}
-
-h1:hover,
-h2:hover,
-h3:hover,
-h4:hover,
-h5:hover,
-h6:hover,
-ol:hover,
-ul:hover,
-p:hover {
-  background: #2C313C;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -66,7 +55,7 @@ h6 {
 
 h1,
 h2 {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 h3,
@@ -76,20 +65,38 @@ h6 {
   margin-top: 2em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+blockquote {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.65);
+}
+
 blockquote {
   background: #2C313C;
   padding: 1em;
   font-style: italic;
 }
-  blockquote p:last-child {
-    margin-bottom: 0;
-  }
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
 
 p img {
   display: block;
   max-width: 100%;
   margin: auto;
   border-radius: 3px;
+}
+
+code {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
 }
 
 .me {
@@ -105,8 +112,9 @@ p img {
   text-align: center;
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
+
 .sitetitle:after {
   display: block;
   content: "";
@@ -116,22 +124,22 @@ p img {
   background: #ABB2BF;
 }
 
-.posts {
-  
-}
-  .posts li {
+.posts {}
 
-  }
-  .posts li a {
-    color: inherit;
-    text-decoration: none;
-  }
-  .posts li a:hover {
-    text-decoration: underline;
-  }
-  .posts li a:visited {
-    color: #7e838d;
-  }
+.posts li {}
+
+.posts li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.posts li a:hover {
+  text-decoration: underline;
+}
+
+.posts li a:visited {
+  color: #7e838d;
+}
 
 .back {
   margin: 3em 0;
@@ -140,9 +148,11 @@ p img {
   color: inherit;
   text-decoration: none;
 }
+
 .back:hover {
   text-decoration: underline;
 }
+
 .back:before {
   display: block;
   content: "";
