@@ -76,7 +76,7 @@ container_commands:
       sed -i "s/__EB_ENV__/$EB_ENV/g" /home/ec2-user/amazon-cloudwatch-agent.json
   02_run_cloudwatch_agent:
     command: |
-      amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/home/ec2-user/amazon-cloudwatch-agent.json -s
+      amazon-cloudwatch-agent-ctl -a append-config -m ec2 -c file:/home/ec2-user/amazon-cloudwatch-agent.json -s
 ```
 
 ## 2. Setup Grafana
