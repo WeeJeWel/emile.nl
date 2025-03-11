@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #282C34;
+  background: #111111;
   color: #ABB2BF;
   font-family: "Merriweather";
   max-width: 620px;
@@ -112,16 +112,26 @@ code {
   text-align: center;
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 0em;
+  margin-bottom: 0.5em;
 }
 
-.sitetitle:after {
+.social {
+  text-align: center;
+}
+
+.social > a {
+  text-decoration: none;
+}
+.social > a:hover {
+  text-decoration: underline;
+}
+
+.hr {
   display: block;
-  content: "";
   width: 25%;
   height: 1px;
   margin: 1.25em auto;
-  background: #ABB2BF;
+  background: rgba(255,255,255,0.1);
 }
 
 .posts {}
