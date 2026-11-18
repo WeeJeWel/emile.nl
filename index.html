@@ -1,17 +1,157 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
   <title>Emile Nijssen</title>
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1"
   >
 
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 24px;
+      color: #202124;
+      background: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .me {
+      display: block;
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin: 20px 0 12px;
+      font-size: 32px;
+      line-height: 1.2;
+      letter-spacing: -1px;
+    }
+
+    p {
+      margin: 12px 0;
+      color: #62666d;
+    }
+
+    h2 {
+      margin: 36px 0 16px;
+      font-size: 20px;
+      letter-spacing: -0.4px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus-visible {
+      outline: 2px solid #007aff;
+      outline-offset: 5px;
+      border-radius: 4px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .projects {
+      display: grid;
+      gap: 4px;
+    }
+
+    .projects a {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin: 0 -12px;
+      padding: 12px;
+      border-radius: 16px;
+    }
+
+    .projects a:hover {
+      background: #f5f5f7;
+    }
+
+    .projects img {
+      flex: 0 0 56px;
+      width: 56px;
+      height: 56px;
+      border-radius: 13px;
+      object-fit: cover;
+      background: #f5f5f7;
+      box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 2px 5px rgb(0 0 0 / 8%);
+    }
+
+    .projects img[src="img/containarr.png"] {
+      padding: 4px;
+      background: radial-gradient(circle at 50% 25%, rgb(31 111 235 / 25%), transparent 80%), #09090b;
+    }
+
+    .projects img[src="img/wireguard-easy.png"] {
+      padding: 7px;
+      background: #88161a;
+    }
+
+    .projects strong {
+      display: block;
+      font-weight: 600;
+    }
+
+    .projects .subtitle {
+      display: block;
+      color: #62666d;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .social {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      color: #62666d;
+    }
+
+    .social a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .social img {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    .social a:hover {
+      color: #202124;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 32px 24px;
+      }
+    }
+  </style>
+
   <link
     rel="icon"
     type="image/png"
-    href="/img/me.png"
+    href="img/me.png"
   >
 
   <script
@@ -27,82 +167,140 @@
 </head>
 
 <body>
+  <main>
 
-  <img
-    class="me"
-    src="/img/me.png"
-    alt="Emile Nijssen"
-    width="100"
-    height="100"
-    style="border-radius: 50%;"
-  />
-  <h1>Emile Nijssen</h1>
-  <p>Hi! I'm Emile, a programmer, entrepreneur and investor living in The Netherlands.</p>
-  <p>Please feel free to contact me for ideas, questions or investment opportunities.</p>
+    <img
+      class="me"
+      src="img/me.png"
+      alt="Emile Nijssen"
+      width="100"
+      height="100"
+    />
+    <h1>Emile Nijssen</h1>
+    <p>Hi! I'm Emile, a programmer, entrepreneur and investor living in The Netherlands.</p>
+    <p>Please feel free to contact me for ideas, questions or investment opportunities.</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a
-        target="_blank"
-        href="https://homey.app"
-      >Homey</a>
-    </li>
-    <li><a
-        target="_blank"
-        href="https://luxio.lighting"
-      >Luxio</a>
-    </li>
-    <li><a
-        target="_blank"
-        href="https://containarr.com"
-      >Containarr</a>
-    </li>
-    <li><a
-        target="_blank"
-        href="https://apps.apple.com/nl/app/livespeech/id6796674775"
-      >LiveSpeech</a>
-    </li>
-    <li><a
-        target="_blank"
-        href="https://splitscreenchess.com"
-      > Split Screen Chess</a>
-    </li>
-    <li><a
-        target="_blank"
-        href="https://github.com/wg-easy/wg-easy"
-      >WireGuard Easy</a>
-    </li>
-    <li><a
-        target="_blank"
-        href="https://github.com/WeeJeWel/node-google-backup"
-      >node-google-backup</a>
-    </li>
-    <li><a
-        target="_blank"
-        href="https://github.com/WeeJeWel/node-icloud-backup"
-      >node-icloud-backup</a>
-    </li>
-  </ul>
+    <h2>Projects</h2>
+    <ul class="projects">
+      <li><a
+          target="_blank"
+          href="https://homey.app"
+        >
+          <img src="img/homey.png" alt="" width="56" height="56">
+          <span>
+            <strong>Homey</strong>
+            <span class="subtitle">Your entire smart home in one place.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://luxio.lighting"
+        >
+          <img src="img/luxio.png" alt="" width="56" height="56">
+          <span>
+            <strong>Luxio</strong>
+            <span class="subtitle">Open Source Wi-Fi Gradient LED Strips.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://containarr.com"
+        >
+          <img src="img/containarr.png" alt="" width="56" height="56">
+          <span>
+            <strong>Containarr</strong>
+            <span class="subtitle">Docker containers, easily managed.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://breastfeed.app"
+        >
+          <img src="img/breastfeed.png" alt="" width="56" height="56">
+          <span>
+            <strong>BreastFeed</strong>
+            <span class="subtitle">Track breastfeeding, bottles and pumping.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://apps.apple.com/nl/app/livespeech/id6796674775"
+        >
+          <img src="img/livespeech.jpg" alt="" width="56" height="56">
+          <span>
+            <strong>LiveSpeech</strong>
+            <span class="subtitle">See what's being said, in real time.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://splitscreenchess.com"
+        >
+          <img src="img/split-screen-chess.png" alt="" width="56" height="56">
+          <span>
+            <strong>Split Screen Chess</strong>
+            <span class="subtitle">Two players. One screen. A game of chess.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://github.com/wg-easy/wg-easy"
+        >
+          <img src="img/wireguard-easy.png" alt="" width="56" height="56">
+          <span>
+            <strong>WireGuard Easy</strong>
+            <span class="subtitle">The easiest way to run your own WireGuard VPN.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://github.com/WeeJeWel/node-google-backup"
+        >
+          <span>
+            <strong>node-google-backup</strong>
+            <span class="subtitle">Back up your Gmail, contacts and calendars.</span>
+          </span>
+        </a>
+      </li>
+      <li><a
+          target="_blank"
+          href="https://github.com/WeeJeWel/node-icloud-backup"
+        >
+          <span>
+            <strong>node-icloud-backup</strong>
+            <span class="subtitle">Keep a local copy of your iCloud files and photos.</span>
+          </span>
+        </a>
+      </li>
+    </ul>
 
-  <h2>Social</h2>
-  <ul>
-    <li><a
-        target="_blank"
-        href="https://www.linkedin.com/in/emilenijssen/"
-      >LinkedIn</a></li>
-    <li><a
-        target="_blank"
-        href="https://github.com/weejewel/"
-      >GitHub</a></li>
-    <li><a
-        target="_blank"
-        href="https://bsky.app/profile/emile.nl"
-      >Bluesky</a></li>
-    <li> <a
-        target="_blank"
-        href="mailto:emile@emile.nl"
-      >Email</a></li>
-  </ul>
+    <h2>Social</h2>
+    <ul class="social">
+      <li><a
+          target="_blank"
+          href="https://www.linkedin.com/in/emilenijssen/"
+        ><img src="img/linkedin.svg" alt="" width="18" height="18">LinkedIn</a></li>
+      <li><a
+          target="_blank"
+          href="https://github.com/weejewel/"
+        ><img src="img/github.svg" alt="" width="18" height="18">GitHub</a></li>
+      <li><a
+          target="_blank"
+          href="https://bsky.app/profile/emile.nl"
+        ><img src="img/bluesky.svg" alt="" width="18" height="18">Bluesky</a></li>
+      <li> <a
+          target="_blank"
+          href="mailto:emile@emile.nl"
+        ><img src="img/email.svg" alt="" width="18" height="18">Email</a></li>
+    </ul>
+  </main>
 
   <script
     async
